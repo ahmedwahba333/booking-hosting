@@ -1,0 +1,274 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*               header               */
+
+.content {
+    width: 100%;
+    /* background-color: black; */
+    background-image: url("https://media.istockphoto.com/id/1202427591/photo/booking-tickets-for-transport-on-the-internet-hotel-reservation-online-flight-booking-plane.jpg?s=612x612&w=0&k=20&c=S94ttshjmNWW1rg8INO_R04jl28RmPt5kzGTCGLbZVs=");
+    background-position: center;
+    background-size:cover;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    cursor: context-menu;
+}
+header:hover{
+    transition: 1s;
+}
+
+/*                nav                 */
+.nav-link{
+    color: #003580;
+    font-size: large;
+    font-weight: bold;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #0d6efd;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+/* .nav-item{
+    display: inline;
+    padding: 0.5rem 1rem;
+    color: #0d6efd;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+} */
+.bg-light {
+    background-color: #f8f9fa!important;
+}
+
+
+
+/* form */
+
+/* .log {
+    width: 280px;
+    height: 300px;
+    border-radius: 20px;
+    background: linear-gradient(to top, rgb(32, 117, 197)50%,rgb(32, 117, 197)50%);
+    position: absolute;
+    margin-top: 200px;
+    top: -20px;
+    left: 970px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+} */
+
+
+.log {
+    width: 350px;
+    height: fit-content;
+
+    /* height: 420px; */
+    border-radius: 20px;
+    background: linear-gradient(to top, rgb(32, 117, 197)50%,rgb(32, 117, 197)50%);
+    position: absolute;
+    margin-top: 150px;
+    /* margin-bottom: 600px; */
+    /* top: -20px; */
+    left: 970px;
+    padding-left: 50px;
+    padding-top: 40px;
+    /* padding-bottom: 10px; */
+}
+
+
+.log h2 {
+    width: 230px;
+    /* height: 50px; */
+    height: fit-content;
+    border: none;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    border-radius: 20px;
+    margin: 2px;
+    padding: 7px;
+    background-color: white;
+    font-weight: bold;
+    font-family: var(--bs-font-sans-serif);
+}
+ /* .log p{
+    text-align: center;
+    color: black;
+ } */
+
+
+.log .inputLabel {
+    width: 250px;
+    /* height: 35px; */
+    height: fit-content;
+    text-decoration: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    /* margin-top: 20px; */
+}
+
+.log input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: white;
+}
+
+.buttonLL {
+    width: 200px;
+    height: fit-content;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 4px;
+    /* margin-left: 8%; */
+    /* margin-bottom: 20px; */
+    background-color: white;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.buttonLL:hover {
+    background-color: rgb(213, 213, 213);
+}
+
+
+
+
+
+
+
+
+
+
+/*                     footer                */
+
+
+.aHeader0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aHeader {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.aHeader:hover {
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+.hello {
+    background: repeating-linear-gradient(#003580,rgb(43, 62, 117),#003580);
+    color: white;
+    padding: 3rem;
+    /* margin-top: 3rem; */
+}
+
+
+.hello:hover {
+    cursor: context-menu;
+}
+
+
+.bar {
+    width: 40%;
+    height: 5px;
+    background-color: white;
+
+
+}
+
+.bar1 {
+    width: 80%;
+    height: 1px;
+    background-color: white;
+}
+
+.parag3 {
+    color: white;
+    line-height: 35px;
+    font-size: large;
+}
+
+.parag3:hover {
+    cursor: context-menu;
+}
+
+.contact {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: small;
+}
+
+.contact:hover {
+    cursor: context-menu;
+}
+
+.locemail {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.email {
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    padding-bottom: 3px;
+}
+
+.email::placeholder {
+    color: white;
+    padding-left: 15px;
+    font-size: small;
+}
+
+.sub {
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.sub:hover {
+    background-color: black;
+    color: white;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.copyright span {
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,250 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* scroll-behavior: smooth; */
+}
+
+
+
+/*               header               */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    cursor: context-menu;
+}
+header:hover{
+    transition: 1s;
+}
+
+
+/*                nav                 */
+.nav-link{
+    color: #003580;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+/*                body                 */
+body
+{
+    background-color: #fefbff; width: 90%;
+    display: block;
+}
+
+.box1
+{
+    background-color: #007da6;color: white
+}
+
+ .box1
+{
+    height: 600px
+}
+
+.box2
+{
+    height: 600px
+}
+
+.heading
+{
+    font-weight: 900
+}
+
+.heading2
+{
+    padding-left: 40px
+}
+
+.box2-head
+{
+    font-weight: 900;background: none;border: none
+}
+
+.card-header
+{
+    margin-top: 50px;padding-left: 20px
+}
+
+.sub-heading
+{
+    font-weight: 1000;font-size: 14px
+}
+
+.sub-heading2
+{
+    border: 1px solid white;padding-top: 10px;padding-bottom: 10px
+}
+
+.sub-heading1
+ {
+    background-color: white;color: #bd3434;padding-top: 10px;padding-bottom: 10px}
+
+.credit
+{
+    position: absolute;left: 150px
+}
+
+.frnt
+{
+    z-index: 10;position: absolute
+}
+
+.back
+{
+    position: absolute;z-index: 1;left: 70px;top: 30px
+}
+
+.form-group>input
+{
+    border: none;border-bottom: 1px solid lightgray
+}
+
+.form-control
+{
+    border: none;border-bottom: 1px solid lightgray
+}
+
+.txt
+{
+    justify-content: space-between
+}
+
+.txt>p>small
+{
+    font-weight: 900
+}
+
+.total
+{
+    justify-content: space-between
+}
+
+.btn
+{
+    height: 60px;background-color: #00B8D4;color: white
+}
+
+.footer2
+{
+    background: none
+}
+
+
+
+
+
+/*                     footer                */
+
+.aHeader0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aHeader {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.aHeader:hover {
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+.hello {
+    background: repeating-linear-gradient(#003580,rgb(43, 62, 117),#003580);
+    color: white;
+    padding: 3rem;
+    margin-top: 3rem;
+}
+
+
+.hello:hover {
+    cursor: context-menu;
+}
+
+
+.bar {
+    width: 40%;
+    height: 5px;
+    background-color: white;
+
+
+}
+
+.bar1 {
+    width: 80%;
+    height: 1px;
+    background-color: white;
+}
+
+.parag3 {
+    color: white;
+    line-height: 35px;
+    font-size: large;
+}
+
+.parag3:hover {
+    cursor: context-menu;
+}
+
+.contact {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: small;
+}
+
+.contact:hover {
+    cursor: context-menu;
+}
+
+.locemail {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.email {
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    padding-bottom: 3px;
+}
+
+.email::placeholder {
+    color: white;
+    padding-left: 15px;
+    font-size: small;
+}
+
+.sub {
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.sub:hover {
+    background-color: black;
+    color: white;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.copyright span {
+    color: white;
+    font-weight: bold;
+}

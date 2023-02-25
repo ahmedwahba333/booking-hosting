@@ -1,0 +1,329 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e6e6e6;
+}
+
+/*                nav                 */
+
+
+.top {
+    align-items: center;
+    margin: 0px;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(2, 2, 2);
+    z-index: 20;
+    position: fixed;
+    top: 0px;
+}
+
+
+
+
+header {
+    padding-left: 6px;
+    font-size: x-large;
+    height: 60px;
+    color: aliceblue;
+    width: 150px;
+    background-color: rgb(45, 45, 45);
+    width: 170px;
+    display: inline-flex;
+    border-radius: 0px 100px 0px 100px;
+    text-align: center;
+
+}
+
+header:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.links {
+    display: flex;
+}
+
+li {
+    padding: 0px;
+    list-style: none;
+
+}
+
+nav ul li a {
+    color: aliceblue;
+    font-size: large;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 18px;
+}
+
+.aLinks:hover {
+
+
+    color: black;
+    background-color: rgb(124, 127, 129);
+    border-radius: 0 100px 0 100px;
+    transition: 1s;
+}
+
+
+
+
+/*           aside            */
+
+aside {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+}
+
+.sidebar {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading0 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+
+.listSideBar {
+    width: 70%;
+    margin-top: 20px;
+    padding: 5px;
+    text-align: center;
+    font-size: x-large;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.article {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    background-color: white;
+}
+
+/*  */
+.hideTable {
+    display: none;
+}
+
+/*
+.showTable{
+    display: block;
+} */
+
+
+
+
+
+
+/*     services     */
+.booking01main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+.booking0 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 3rem;
+    scale: 2;
+}
+
+.booking0:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.model0 {
+    display: flex;
+    flex-direction: column;
+}
+
+.submitbtn {
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.submitbtn:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
+/*  */
+.hideTable {
+    display: none;
+}
+
+/*
+.showTable{
+    display: block;
+} */
+
+
+.myBtns{
+    width: 90%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px;
+}
+.btnAccept{
+    margin-bottom: 5px;
+    background-color: greenyellow;
+}
+.btnAccept:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.btnReject{
+    background-color: red;
+}
+.btnReject:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+
+/*     footer     */
+.aHeader0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aHeader {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.aHeader:hover {
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+
+
+
+.hello {
+    background: repeating-linear-gradient(black, gray, black);
+    color: white;
+    padding: 3rem;
+}
+
+.hello:hover {
+    cursor: context-menu;
+}
+
+
+.bar {
+    width: 40%;
+    height: 5px;
+    background-color: white;
+
+
+}
+
+.bar1 {
+    width: 80%;
+    height: 1px;
+    background-color: white;
+}
+
+.parag3 {
+    color: white;
+    line-height: 35px;
+    font-size: large;
+}
+
+.parag3:hover {
+    cursor: context-menu;
+}
+
+.contact {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: small;
+}
+
+.contact:hover {
+    cursor: context-menu;
+}
+
+.locemail {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.email {
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    padding-bottom: 3px;
+}
+
+.email::placeholder {
+    color: white;
+    padding-left: 15px;
+    font-size: small;
+}
+
+.sub {
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.sub:hover {
+    background-color: black;
+    color: white;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.copyright span {
+    color: white;
+    font-weight: bold;
+}

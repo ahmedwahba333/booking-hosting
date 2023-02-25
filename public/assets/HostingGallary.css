@@ -1,0 +1,458 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+    box-sizing: border-box;
+}
+
+
+
+.img1 {
+    background-image: url(./BookingGalleryImg/himg/397589120.jpg);
+
+    width: 100%;
+    height:30em;
+    padding: 0px;
+    margin: 0px;
+    background-size:100%  100% ;
+}
+
+.address {
+    display: -ms-flexbox;
+
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: large;
+    position: absolute;
+    top: 82px;
+    right: 733px;
+    padding: 0px;
+}
+
+.head {
+    color: rgb(4, 4, 4);
+    border-radius: 10px 100px;
+    /*   padding: 8px;*/
+    background-color: rgba(44, 45, 45, 0.495);
+}
+.paragraph {
+    border-radius: 10px 100px;
+    /*  padding: 8px;*/
+    background-color: rgba(105, 107, 109, 0.495);
+}
+
+.head:hover {
+    background-color: rgba(92, 91, 94, 0.43);
+
+    color: rgb(2, 2, 2);
+    transform: scale(1.1);
+    transition: 1s;
+}
+.paragraph:hover {
+    background-color: rgba(156, 154, 160, 0.43);
+    transform: scale(1.13);
+    transition: 1s;
+}
+
+.top {
+    align-items: center;
+    margin: 0px;
+    display: flex;
+    width: 100%;
+
+    background-color: rgb(2, 2, 2);
+    z-index: 2000;
+    position: fixed;
+    top: 0px;
+
+
+    display: -ms-flexbox;
+
+    /*justify-content: flex-start;*/
+}
+.hide {
+    display: none;
+}
+
+.serch {
+    float: left;
+    width: 330px;
+    margin-left: 270px;
+}
+/*
+.serchin {
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid white;
+    margin-top: 20px;
+    padding: 10px;
+    margin-right: 0px;
+    margin-left: 90px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}*/
+
+.search {
+    align-items: flex-end;
+    text-align: center;
+    border-radius: 100px 0px 0px 100px;
+    width: 400px;
+    height: 35px;
+    background-color: rgba(202, 199, 197, 0.771);
+}
+
+h1 {
+margin: 0px;
+padding: 10px;
+border-radius: 0 100px 0 100px;
+/* background-color: rgb(97, 94, 94); */
+
+}
+h1:hover {
+    background-color: rgba(111, 111, 111, 0.404);
+}
+
+.links {
+    display: flex;
+    display: -ms-flexbox;
+    display: -ms-flexbox;
+}
+
+
+/*                nav                 */
+.nav-link{
+    color: #003580;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+.colgallary {
+    display: grid;
+
+    justify-content:space-around;
+    flex-direction: row;
+}
+.gallary1 {
+    border:  5em;
+     background-color: rgb(255, 255, 255);
+
+         display: grid;
+         grid-template-columns: repeat(4, 20%);
+         justify-content:center;
+
+     }
+
+.sidebar {
+    width: 15%;
+    background-color: rgb(19, 19, 19);
+    display: inline;
+    color: aliceblue;
+
+    line-height: 20px;
+    display: flex;
+    display: inline;
+    margin: 0%;
+    padding: 2%;
+    flex-direction: row;
+}
+
+.groupcards {
+    /* display: -ms-grid; */
+    display: grid;
+
+    grid-template-columns: repeat(5, auto);
+    flex-direction: row;
+    grid: wrap;
+
+    /* display: flex;
+    gap: 15px;*/
+
+    justify-content: right;
+}
+/*@media (min-width: 50%) {
+    .groupcards{
+        column-count: 2;
+    }
+  }*/
+
+  .bar {
+    background-color: rgb(64, 62, 62);
+    width: 100px;
+    height: 600px;
+    display: inline-block;
+
+    justify-content: flex-start;
+}
+.card {
+   border:2px rgb(102, 147, 178) solid;
+    height: 32em;
+    width: 17em;
+  background-color: rgb(243, 249, 255);
+    border-radius: 25px;
+    margin-top: 1em;
+    margin-right: 2em;
+    margin-bottom: 3em;
+
+}
+
+
+
+.button {
+    color:aliceblue;
+    margin: 20px;
+    padding: 5px;
+    background-color: rgba(0, 65, 98, 0.763);
+    border: 5px;
+    box-shadow: -8px 8px 8px rgb(223, 245, 248);
+    font-size: 15;
+    border-radius: 50px;
+}
+.button:hover {
+    background-color: rgba(9, 180, 253, 0.474);
+    transform: scale(0.97);
+    color: rgb(6, 51, 66);
+}
+
+div img {
+    width: 250px;
+    height: 220px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: -7px 7px 9px rgba(109, 108, 108, 0.786);
+}
+img:hover {
+    transform: scale(0.96);
+}
+
+.prize1 {
+    box-shadow: -8px 8px 17px rgba(188, 220, 255, 0.786);
+
+    color: rgb(36, 36, 37);
+    padding: 3px;
+    width: 100px;
+    flex-direction: column;
+    background-color: rgba(93, 180, 255, 0.316);
+    border-radius: 50px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.prize2 {
+    box-shadow: -8px 8px 17px rgba(188, 220, 255, 0.786);
+
+    text-align: center;
+    color: rgb(36, 36, 37);
+    padding: 3px;
+    width: 120px;
+    flex-direction: column;
+    background-color: rgba(93, 180, 255, 0.316);
+    border-radius: 50px;
+}
+
+.prize3 {
+    box-shadow: -8px 8px 17px rgba(188, 220, 255, 0.786);
+
+    text-align: center;
+    color: rgb(36, 36, 37);
+    padding: 3px;
+    width: 140px;
+    flex-direction: column;
+    background-color: rgba(93, 180, 255, 0.316);
+    border-radius: 50px;
+    font-size: 18px;
+}
+.prizesign {
+    box-shadow: -8px 8px 17px rgba(207, 234, 248, 0.786);
+
+    color: rgb(0, 52, 120);
+    padding: 1.5%;
+    width: 40%;
+    flex-direction: column;
+    background-color: rgba(114, 189, 254, 0.795);
+    border-radius: 50px;
+    font-size: 18px;
+}
+.prizesign:hover {
+    transform: scale(0.89);
+    transition: 1s;
+}
+
+aside:hover {
+    transform: scale(0.89);
+    background-color: rgba(118, 120, 122, 0.651);
+    transition: 1s;
+}
+.view {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prize1:hover {
+    background-color: rgba(118, 120, 122, 0.651);
+    transition: 1s;
+    transform: scale(0.899);
+}
+
+.addressstr {
+    background-color: rgba(227, 127, 157, 0.389);
+}
+
+.sign {
+    border-radius: 10px 100px;
+    font-weight: 700;
+    background-clip: border-box;
+    color: rgb(244, 5, 5);
+    background-color: rgba(227, 127, 157, 0.389);
+    padding: 10px;
+}
+section:hover {
+    background-color: rgb(255, 0, 0);
+    transform: scale(0.6);
+    color: aliceblue;
+    border-radius: 10px 100px;
+    transition: 1s;
+}
+.end {
+    justify-content: space-around;
+    display: flex;
+}
+/*     footer     */
+.aHeader0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aHeader {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+.aHeader:hover {
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+
+
+/*                     footer                */
+
+
+.aHeader0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aHeader {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.aHeader:hover {
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+.hello {
+    background: repeating-linear-gradient(#003580,rgb(43, 62, 117),#003580);
+    color: white;
+    padding: 3rem;
+    margin-top: 3rem;
+}
+
+
+.hello:hover {
+    cursor: context-menu;
+}
+
+
+.bar {
+    width: 40%;
+    height: 5px;
+    background-color: white;
+
+
+}
+
+.bar1 {
+    width: 80%;
+    height: 1px;
+    background-color: white;
+}
+
+.parag3 {
+    color: white;
+    line-height: 35px;
+    font-size: large;
+}
+
+.parag3:hover {
+    cursor: context-menu;
+}
+
+.contact {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: small;
+}
+
+.contact:hover {
+    cursor: context-menu;
+}
+
+.locemail {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.email {
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    padding-bottom: 3px;
+}
+
+.email::placeholder {
+    color: white;
+    padding-left: 15px;
+    font-size: small;
+}
+
+.sub {
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.sub:hover {
+    background-color: black;
+    color: white;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.copyright span {
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,314 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #003580;
+
+    /* background-color: #fff; */
+}
+
+h1,h2,h3,h4,p,header{
+    cursor: context-menu;
+}
+
+
+/*               header               */
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    cursor: context-menu;
+}
+header:hover{
+    transition: 1s;
+}
+/*                nav                 */
+.nav-link{
+    color: #003580;
+    font-size: large;
+    font-weight: bold;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #0d6efd;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+/* .nav-item{
+    display: inline;
+    padding: 0.5rem 1rem;
+    color: #0d6efd;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+} */
+.bg-light {
+    background-color: #f8f9fa!important;
+}
+
+
+/*   section    */
+
+.section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10%;
+
+}
+
+.card{
+text-align: center;
+background-color: white;
+/* background-color: #003580; */
+/* color: #fff; */
+/* height: fit-content; */
+border-radius: 50px;
+padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 70px;
+margin-left: 50px;
+margin-right: 50px;
+}
+
+
+/* card first */
+
+.img{
+    width: 30%;
+    border-radius: 20px;
+}
+
+.cardFlats{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    /* background-color: #e6e6e6; */
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.cardFlats p{
+    margin: 5px;
+}
+
+.booking0{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    /* color: rgba(0,0,0,.55); */
+    color: #212529;
+    border-radius: 20px;
+    background-color: #003580;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+
+/*           popup */
+.showPopUp {
+    /* display: block; */
+    display: flex;
+  }
+
+ .hidePopUpSharing {
+    display: none;
+  }
+
+.modalBio{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.bioText{
+    height: 20px;
+}
+
+.modalBioCheck{
+    text-align:left;
+}
+.goBackContentPopUp{
+    width: 30%;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.popUpSharing {
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    background-color: hsla(0, 0%, 52%, 0.75);
+    z-index: 100;
+  }
+
+/*
+.popUpSharing {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(0, 0%, 52%, 0.75);
+    z-index: 100;
+  } */
+
+  .popUpSharingChild {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*                     footer                */
+
+
+.aHeader0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aHeader {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.aHeader:hover {
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+
+
+
+.hello {
+    background: repeating-linear-gradient(#003580,rgb(43, 62, 117),#003580);
+    color: white;
+    padding: 3rem;
+    margin-top: 3rem;
+}
+
+
+.hello:hover {
+    cursor: context-menu;
+}
+
+
+.bar {
+    width: 40%;
+    height: 5px;
+    background-color: white;
+
+
+}
+
+.bar1 {
+    width: 80%;
+    height: 1px;
+    background-color: white;
+}
+
+.parag3 {
+    color: white;
+    line-height: 35px;
+    font-size: large;
+}
+
+.parag3:hover {
+    cursor: context-menu;
+}
+
+.contact {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: small;
+}
+
+.contact:hover {
+    cursor: context-menu;
+}
+
+.locemail {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.email {
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    padding-bottom: 3px;
+}
+
+.email::placeholder {
+    color: white;
+    padding-left: 15px;
+    font-size: small;
+}
+
+.sub {
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.sub:hover {
+    background-color: black;
+    color: white;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.copyright span {
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,248 @@
+/* body {
+    background-color: #e6e6e6;
+} */
+
+h1:hover {
+    cursor: context-menu;
+}
+
+p:hover {
+    cursor: context-menu;
+}
+
+h2:hover {
+    cursor: context-menu;
+}
+
+/*               header               */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    cursor: context-menu;
+}
+
+header:hover {
+    transition: 1s;
+}
+
+
+
+/*                nav                 */
+
+.nav-link{
+    color: #003580;
+    font-size: large;
+    font-weight: bold;
+}
+
+.card-body{
+    background-color: #003580;
+    color: white;
+    font-weight: bold;
+}
+
+/*               aside               */
+
+.aside0 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.aside {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    border: 3px black solid;
+    border-radius: 10px;
+    width: 30%;
+    margin-bottom: 3rem;
+    color: #003580;
+    background-color: white;
+}
+
+
+
+
+
+/*           section         */
+
+.section {
+    /* width: 100%; */
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 3rem;
+    background-color: #003580;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+}
+
+.description {
+    width: 90%;
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px black solid;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px;
+
+}
+
+
+
+/*               aside   =    header            */
+
+
+.aside01 {
+    margin-top: 70px;
+}
+
+
+/*                     article                  */
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-gap: 10%; */
+    /* margin-bottom: 5rem; */
+}
+
+img {
+    /* border-radius: 40px; */
+    width: 70%;
+
+}
+
+.card {
+    text-align: center;
+    /* height:80%; */
+}
+
+.imgCard {
+    height: 15rem;
+}
+
+/* .imgCard:hover {
+    transform: scale(1.1);
+    transition: 1s;
+} */
+.container{
+    margin-top: 2rem;
+}
+
+
+/*                     footer                */
+
+.aHeader0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aHeader {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.aHeader:hover {
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+.hello {
+    background: repeating-linear-gradient(#003580,rgb(43, 62, 117),#003580);
+    color: white;
+    padding: 3rem;
+    margin-top: 3rem;
+}
+
+
+.hello:hover {
+    cursor: context-menu;
+}
+
+
+.bar {
+    width: 40%;
+    height: 5px;
+    background-color: white;
+
+
+}
+
+.bar1 {
+    width: 80%;
+    height: 1px;
+    background-color: white;
+}
+
+.parag3 {
+    color: white;
+    line-height: 35px;
+    font-size: large;
+}
+
+.parag3:hover {
+    cursor: context-menu;
+}
+
+.contact {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: small;
+}
+
+.contact:hover {
+    cursor: context-menu;
+}
+
+.locemail {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.email {
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    padding-bottom: 3px;
+}
+
+.email::placeholder {
+    color: white;
+    padding-left: 15px;
+    font-size: small;
+}
+
+.sub {
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.sub:hover {
+    background-color: black;
+    color: white;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.copyright span {
+    color: white;
+    font-weight: bold;
+}
